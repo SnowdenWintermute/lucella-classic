@@ -1,0 +1,26 @@
+Nav
+  -show first letter of logged in user as menu icon
+Profile
+Profile view with name, avi and ranks
+Chat
+  -press up to get last entered messages
+  -send private messages
+  -friend list
+  -make messages a class
+  -client can lie what their name is...
+  -icon of what game they're playing
+General
+  -remove magic strings
+Sockets
+ - Clean up main socket listener file and separate concerns
+
+Game
+  -if player leaves game inProgress, destroy the game and award a win/loss (only host leaving destroys game rn)
+  -slim client request packets
+
+DONE
+  -change chat channel(room)
+  - separate game lobby (players, ready status,countdown,gameStatus) and
+in game objects (end zones, points, orbs, dashes) and have a reference prop to link them
+so we can send just the data that is needed in the lobby
+-fix reducers to be shallow objects (not nested) and only replace what is needed
